@@ -1,10 +1,7 @@
 spring:
   application:
-    name: "api"
+    name: "Api"
   profiles:
-    active: "gatway"
-
-
+    active: "Gatway"
   config:
     import: "optional:configserver:http://localhost:6666/"
-
